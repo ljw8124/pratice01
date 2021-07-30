@@ -8,7 +8,7 @@ public class StoreUI {
 
     public StoreDTO fnMenu() {
         System.out.println("메뉴를 고르시오");
-        String choice = scanner.nextLine();
+        String choice = this.scanner.nextLine();
 
         return service.findByMenu(choice);
     }
