@@ -1,5 +1,7 @@
 package org.pratice.store;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Arrays;
 import java.util.Optional;
 
@@ -9,6 +11,7 @@ public class StoreService {
         StoreDTO.builder().name("훈이돈이").menu("로스카츠").lat(10.00).lgt(10.00).preference(2.5).build(),
         StoreDTO.builder().name("얌샘김밥").menu("한입김밥").lat(10.00).lgt(10.00).preference(1.5).build()
     };
+
 
     public StoreDTO findByMenu(String menuName) {
 
