@@ -1,4 +1,6 @@
-package org.pratice.store;
+package org.pratice.ex3.service;
+
+import org.pratice.store.StoreDTO;
 
 
 import java.util.Arrays;

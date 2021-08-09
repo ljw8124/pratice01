@@ -1,5 +1,7 @@
 package org.pratice.store;
 
+import org.pratice.ex3.service.StoreService;
+
 import java.util.Scanner;
 
 public class StoreUI {
